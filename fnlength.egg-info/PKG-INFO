@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: fnlength
+Version: 1.0.0
+Summary: Python filename length script
+Home-page: https://github.com/IgorMan2005/fnlength
+Author: IgorMan (IgorMan2005)
+Author-email: igorman2005@gmail.com
+Project-URL: Documentation, https://best-itpro.ru/news/fnlength/
+Keywords: python filename length script filenamelength fnlength
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fnlength
+
+<img src="https://igorman2005.github.io/images/fnlength.jpg" alt="fnlength">
+
+Python filename length script.
+The program enumerates the file in subdirectories and shortens long filenames to the specified number of characters.
+function will create log file in top dir with name log_%Y%m%d.log
+
+## Setup
+https://pypi.org/project/fnlength/
+
+**pip install fnlength**
+
+## Example1:
+```
+import fnlength 
+
+target = fnlength.fnlength()
+
+# default 25
+target.MAX_FILENAME_LENGTH = 30             
+
+target.start()                              
+
+```
+
+## Example2:
+```
+from fnlength import FileNameLength
+
+target = FileNameLength()
+
+# default 25
+target.MAX_FILENAME_LENGTH = 35
+
+target.start()         
+
+```
+
+### Documentation
+
+https://best-itpro.ru/news/fnlength/
+
+

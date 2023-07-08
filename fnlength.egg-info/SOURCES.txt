@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fnlength/__init__.py
+fnlength/dir_travel.py
+fnlength/file_travel.py
+fnlength/main.py
+fnlength.egg-info/PKG-INFO
+fnlength.egg-info/SOURCES.txt
+fnlength.egg-info/dependency_links.txt
+fnlength.egg-info/top_level.txt
